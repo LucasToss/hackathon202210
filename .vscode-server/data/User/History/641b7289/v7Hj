@@ -1,0 +1,42 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is ahead of 'hackathon/main' by 1 commit.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#	new file:   .gitconfig
+#	modified:   .vscode-server/data/logs/20221008T094948/exthost2/exthost.log
+#	modified:   .vscode-server/data/logs/20221008T094948/exthost2/output_logging_20221008T095019/1-Git.log
+#
+# Changes not staged for commit:
+#	modified:   app1/src/app1.py
+#	modified:   app1/src/decrypt_frame.py
+#	modified:   app1/src/fact.py
+#	modified:   app1/src/generateDLMSCMD.py
+#	modified:   app1/src/prime_numbers.py
+#	modified:   app1/src/sink_aggregation.py
+#	modified:   app1/src/transport_stream.py
+#	modified:   metrics/input/decode_frame.json
+#	modified:   metrics/input/fact.json
+#	modified:   metrics/input/get_x_max.json
+#	modified:   metrics/input/prime.json
+#	modified:   metrics/input/sink_aggregation.json
+#	modified:   metrics/input/store_prices.json
+#	modified:   metrics/input/template.json
+#	modified:   metrics/input/transport_stream.json
+#
+# Untracked files:
+#	.bash_history
+#	.python_history
+#	.ssh/
+#	.sudo_as_admin_successful
+#	.terraform.d/
+#	.vscode-server/data/CachedExtensionVSIXs/
+#	.vscode-server/data/User/History/
+#	.vscode-server/extensions/
+#	.wget-hsts
+#	metrics/start_date.txt
+#
