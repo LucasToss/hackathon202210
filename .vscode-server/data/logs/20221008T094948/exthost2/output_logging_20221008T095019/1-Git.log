@@ -1,0 +1,95 @@
+[2022-10-08T07:50:22.961Z] Log level: Info
+[2022-10-08T07:50:22.978Z] [info] Validating found git in: git
+[2022-10-08T07:50:23.081Z] [info] Using git 2.34.1 from git
+[2022-10-08T07:50:23.146Z] > git rev-parse --show-toplevel [23ms]
+[2022-10-08T07:50:23.147Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-08T07:50:23.211Z] > git rev-parse --show-toplevel [41ms]
+[2022-10-08T07:50:23.212Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-08T07:50:23.231Z] > git rev-parse --show-toplevel [8ms]
+[2022-10-08T07:50:23.231Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-08T07:50:55.104Z] > git init [19ms]
+[2022-10-08T07:50:55.104Z] hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+[2022-10-08T07:50:55.677Z] > git rev-parse --show-toplevel [3ms]
+[2022-10-08T07:50:55.687Z] > git rev-parse --git-dir --git-common-dir [2ms]
+[2022-10-08T07:50:55.703Z] [info] Open repository: /home/tosse
+[2022-10-08T07:50:55.731Z] > git status -z -uall [16ms]
+[2022-10-08T07:50:55.734Z] > git fetch [24ms]
+[2022-10-08T07:50:55.735Z] > git symbolic-ref --short HEAD [1ms]
+[2022-10-08T07:50:55.740Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+[2022-10-08T07:50:55.749Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+[2022-10-08T07:50:55.750Z] > git remote --verbose [2ms]
+[2022-10-08T07:50:56.111Z] > git config --get commit.template [7ms]
+[2022-10-08T07:50:56.143Z] > git status -z -uall [22ms]
+[2022-10-08T07:50:56.149Z] > git symbolic-ref --short HEAD [2ms]
+[2022-10-08T07:50:56.154Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+[2022-10-08T07:50:56.167Z] > git remote --verbose [3ms]
+[2022-10-08T07:50:56.167Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+[2022-10-08T07:50:56.236Z] > git config --get commit.template [5ms]
+[2022-10-08T07:50:56.257Z] > git status -z -uall [16ms]
+[2022-10-08T07:50:56.263Z] > git symbolic-ref --short HEAD [1ms]
+[2022-10-08T07:50:56.269Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+[2022-10-08T07:50:56.279Z] > git remote --verbose [2ms]
+[2022-10-08T07:50:56.279Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+[2022-10-08T07:50:56.320Z] > git config --get commit.template [1ms]
+[2022-10-08T07:50:57.211Z] > git check-ignore -v -z --stdin [2ms]
+[2022-10-08T07:50:58.819Z] > git status -z -uall [27ms]
+[2022-10-08T07:50:58.825Z] > git symbolic-ref --short HEAD [1ms]
+[2022-10-08T07:50:58.830Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+[2022-10-08T07:50:58.839Z] > git remote --verbose [1ms]
+[2022-10-08T07:50:58.839Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+[2022-10-08T07:50:58.863Z] > git config --get commit.template [1ms]
+[2022-10-08T07:51:03.881Z] > git status -z -uall [14ms]
+[2022-10-08T07:51:03.887Z] > git symbolic-ref --short HEAD [1ms]
+[2022-10-08T07:51:03.893Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+[2022-10-08T07:51:03.902Z] > git remote --verbose [2ms]
+[2022-10-08T07:51:03.902Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+[2022-10-08T07:51:03.927Z] > git config --get commit.template [0ms]
+[2022-10-08T07:51:08.948Z] > git status -z -uall [13ms]
+[2022-10-08T07:51:08.953Z] > git symbolic-ref --short HEAD [1ms]
+[2022-10-08T07:51:08.959Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+[2022-10-08T07:51:08.975Z] > git remote --verbose [2ms]
+[2022-10-08T07:51:08.975Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+[2022-10-08T07:51:09.011Z] > git config --get commit.template [1ms]
+[2022-10-08T07:51:14.059Z] > git status -z -uall [38ms]
+[2022-10-08T07:51:14.066Z] > git symbolic-ref --short HEAD [1ms]
+[2022-10-08T07:51:14.071Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+[2022-10-08T07:51:14.080Z] > git remote --verbose [1ms]
+[2022-10-08T07:51:14.080Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+[2022-10-08T07:51:14.104Z] > git config --get commit.template [1ms]
+[2022-10-08T07:51:19.125Z] > git status -z -uall [13ms]
+[2022-10-08T07:51:19.131Z] > git symbolic-ref --short HEAD [1ms]
+[2022-10-08T07:51:19.137Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+[2022-10-08T07:51:19.146Z] > git remote --verbose [1ms]
+[2022-10-08T07:51:19.146Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+[2022-10-08T07:51:19.170Z] > git config --get commit.template [0ms]
+[2022-10-08T07:51:21.444Z] > git remote add hackathon https://github.com/LucasToss/hackathon202210.git [5ms]
+[2022-10-08T07:51:21.465Z] > git status -z -uall [15ms]
+[2022-10-08T07:51:21.470Z] > git symbolic-ref --short HEAD [1ms]
+[2022-10-08T07:51:21.474Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+[2022-10-08T07:51:21.483Z] > git remote --verbose [1ms]
+[2022-10-08T07:51:21.484Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+[2022-10-08T07:51:21.510Z] > git config --get commit.template [1ms]
+[2022-10-08T07:51:23.550Z] > git fetch hackathon [2035ms]
+[2022-10-08T07:51:23.550Z] From https://github.com/LucasToss/hackathon202210
+ * [new branch]      main       -> hackathon/main
+[2022-10-08T07:51:23.563Z] > git status -z -uall [10ms]
+[2022-10-08T07:51:23.567Z] > git symbolic-ref --short HEAD [0ms]
+[2022-10-08T07:51:23.572Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+[2022-10-08T07:51:23.579Z] > git remote --verbose [1ms]
+[2022-10-08T07:51:23.580Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+[2022-10-08T07:51:23.603Z] > git config --get commit.template [1ms]
+[2022-10-08T07:51:24.197Z] > git status -z -uall [19ms]
+[2022-10-08T07:51:24.205Z] > git symbolic-ref --short HEAD [1ms]
+[2022-10-08T07:51:24.212Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+[2022-10-08T07:51:24.224Z] > git remote --verbose [1ms]
+[2022-10-08T07:51:24.225Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+[2022-10-08T07:51:24.251Z] > git config --get commit.template [1ms]
