@@ -1,4 +1,3 @@
-import sys
 """ 
 #### factorial function example ### 
  fact n 
@@ -8,12 +7,16 @@ import sys
  in  case of of negative return 0
 """
 
-def factorielle(a):
-    if a < 0:
+def factorielle(v):
+    
+    if v < 0:
         return 'undefined'
-    if a < 2:
+    if v < 2:
         return 1
-    return a*factorielle(a-1)
+    total = 1
+    for curValeur in range (2,v+1):
+      total = total*curValeur
+    return total
 
 def cmd_fact(n):
     return str(factorielle(n))

@@ -19,10 +19,10 @@ is basic, here some elements:
 
 """
 
-import sys
+# import sys
 import struct
 import logging 
-from optparse import OptionParser
+# from optparse import OptionParser
 
 class SystemClock:
     def __init__(self):

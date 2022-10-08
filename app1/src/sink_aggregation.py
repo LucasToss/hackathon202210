@@ -1,5 +1,3 @@
-import json
-from pymongo import database
 from pymongo.mongo_client import MongoClient
 
 ###
@@ -86,22 +84,24 @@ def sink_aggregation(json_data):
 
 def find_min(array,key):
     if len(array) >0:
-        min = array[0][key]
-        for i in range(len(array)):
-            if array[i][key] != None:
-                if array[i][key] < min:
-                    min = array[i][key]
-        return min 
+        # min = array[0][key]
+        # for i in range(len(array)):
+        #     if array[i][key] != None:
+        #         if array[i][key] < min:
+        #             min = array[i][key]
+        # return min 
+        return min (array, key = [key])
     return None
 
 def find_max(array,key):
     if len(array) >0:
-        max = array[0][key]
-        for i in range(len(array)):
-            if array[i][key] != None:
-                if array[i][key] > max:
-                    max = array[i][key]
-        return max 
+        # max = array[0][key]
+        # for i in range(len(array)):
+        #     if array[i][key] != None:
+        #         if array[i][key] > max:
+        #             max = array[i][key]
+        # return max 
+        return max (array, key = [key])
     return None
 
 def count_value_change(array,key):

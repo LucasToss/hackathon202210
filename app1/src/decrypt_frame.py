@@ -156,8 +156,3 @@ def decode_frame(frame):
         frame_dict = frame_to_json(frame)
         str=json.dumps(frame_dict, indent=4)
     return str
-
-
-
-
-
